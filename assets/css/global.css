@@ -1,0 +1,40 @@
+.container{
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.justify{
+    justify-content: center;
+}
+
+.font-25{
+    font-size: 25px;
+}
+
+.font-cursive{
+    font-family: cursive;
+}
+
+.font-white{
+color: white;
+}
+
+.font-13{
+    font-size: 13;
+}
+
+.font-10{
+    font-size: 10px;
+}
+
+.bold{
+    font-weight: 500;
+}
+.align-center{
+    text-align: center;
+}

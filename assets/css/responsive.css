@@ -1,0 +1,114 @@
+@media screen and (max-width: 430px) {
+  /****** NAVIGATION-BAR ********/
+  ul {
+    gap: 10px;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  li a {
+    padding: 5px 5px;
+  }
+
+  #menu {
+    width: 150px;
+    height: 100vh;
+    background-color: rgba(8, 24, 3, 0.885);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: left 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    z-index: 1;
+  }
+
+  #menu ul {
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  #menu ul li{
+    border-bottom: 1px solid rgba(102, 105, 101, 0.345);
+    padding-bottom: 2px;
+  }
+
+  #menu.show {
+    left: 0;
+  }
+
+  #menu ul li a {
+    margin: 15px 0;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* Menu Icon Styles */
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .menu-icon .bar1,
+  .menu-icon .bar2,
+  .menu-icon .bar3 {
+    width: 30px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #3ba51891;
+    margin: 2px 5px;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    transform: rotate(-40deg) translate(-7px, 9px);
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    transform: rotate(40deg) translate(-2px, -5px);
+  }
+
+  /****** FORM ********/
+  form {
+    width: 300px;
+    height: auto;
+    background: transparent;
+  }
+  form fieldset {
+    height: auto;
+    background-color: white;
+    width: 234px;
+    padding-top: 50px;
+    margin: 0 auto;
+  }
+
+  #submit-btn {
+    left: 0;
+  }
+
+  input#username {
+    margin-top: 0;
+  }
+
+  .form-label {
+    height: 29px;
+    width: 250px;
+  }
+
+  .top-img {
+    margin-bottom: 40px;
+  }
+
+
+}

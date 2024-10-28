@@ -1,0 +1,116 @@
+body {
+  background-color: #e3e3e3;
+}
+
+/******* NAVIGATION BAR ********/
+
+ul {
+  gap: 20px;
+}
+
+ul li {
+  list-style: none;
+  font-family: cursive;
+  font-size: 13px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  position: relative;
+  
+}
+
+ul li a::after {
+  content: "";
+  width: 100%;
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background-color: #199e1b;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  transform: scaleX(0);
+}
+li a:hover::after,
+li a#active::after {
+  transform: scaleX(0.8);
+}
+
+.menu-icon {
+  display: none;
+}
+/******* SIGN-UP FORM *********/
+.top-img {
+  width: 100px;
+  height: 100px;
+}
+
+.top-img img {
+  width: 100%;
+}
+
+#form-title {
+  text-align: center;
+  font-weight: 900;
+}
+
+form {
+  width: 560px;
+  height: 459px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+form fieldset {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 48px;
+  padding-top: 0px;
+  border: 2px solid #176e04bb;
+  border-radius: 8px;
+}
+
+.form-label {
+  display: inline-block;
+  width: 80px;
+  text-align: left;
+}
+
+input {
+  margin-bottom: 20px;
+  border: 1px solid #729e19;
+  padding: 8px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+input:focus {
+  border-color: #199e1b;
+  box-shadow: 0 0 10px #38b01091;
+  outline: none;
+}
+
+input#username {
+  margin-top: 50px;
+}
+
+#submit-btn {
+  position: relative;
+  left: 43px;
+  width: 268px;
+  border: none;
+  background: rgb(54, 137, 67);
+}
+
+#submit-btn:hover {
+  box-shadow: 0 0 10px #5afd2491;
+}
+
+.cr{
+    margin: 10px;
+}
