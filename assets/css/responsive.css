@@ -83,9 +83,10 @@
 
   /****** FORM ********/
   form {
-    width: 300px;
+    width: 293px;
     height: auto;
     background: transparent;
+    box-shadow: none;
   }
   form fieldset {
     height: auto;
@@ -93,6 +94,7 @@
     width: 234px;
     padding-top: 50px;
     margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.474);
   }
 
   #submit-btn {
