@@ -12,6 +12,7 @@ ul li {
   list-style: none;
   font-family: cursive;
   font-size: 13px;
+ 
 }
 
 li a {
@@ -19,7 +20,6 @@ li a {
   color: black;
   padding: 5px 10px;
   position: relative;
-  
 }
 
 ul li a::after {
